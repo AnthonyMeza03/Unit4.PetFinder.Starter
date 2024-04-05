@@ -1,0 +1,15 @@
+// API Endpoint 1: Get all pets
+GET /api/pets
+// Description: Retrieve all pets stored in the database.
+
+// API Endpoint 2: Get pets by name
+GET /api/pets?name={petName}
+// Description: Retrieve pets by their name.
+
+// API Endpoint 3: Get pets by owner's name
+GET /api/pets?owner={ownerName}
+// Description: Retrieve pets by the name of their owner.
+
+// Stretch Goal API Endpoint 4: Serve an index.html or React application
+GET /index.html or GET /app
+// Description: Serve an index.html or React application for full-stack web functionality.
